@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="">
+<head>
+    <meta charset="UTF-8">
+    <title>选择就诊类型</title>
+    <th:block th:include="head::head"></th:block>
+    <style>
+        .weui_tab_bd_item{height: 100%;overflow: auto;display:none;}
+        .weui_tab_bd_item.weui_tab_bd_item_active{display:block;}
+    </style>
+</head>
+<body>
+<div class="container" id="container">
+    <div class="page icons js_show">
+        <h1 style="color: #c9968b;text-align: center" >广州爱博恩妇产医院</h1>
+        <h3 style="text-align: center" >支付结果</h3>
+        <br>
+        <div class="page__bd page__bd_spacing">
+            <div class="icon-box" >
+                <i class="weui-icon-success weui-icon_msg"></i>
+                <div class="icon-box__ctn">
+                    <h3 class="icon-box__title">成功</h3>
+                    <hr>
+                    <p class="icon-box__desc">请于2020-03-31 15:33分前离场</p>
+                    <p class="icon-box__desc">逾期将重新计费</p>
+                </div>
+            </div>
+        </div>
+        <div class="page__hd">
+            <div class="weui-cells__title">支付结果</div>
+            <div class="weui-cells">
+                <div class="weui-cell  weui-cell_example">
+                    <div class="weui-cell__bd">
+                        <p style="text-align: left">车牌号</p>
+                    </div>
+                    <div class="weui-cell__ft">粤A 1234AB</div>
+                </div>
+                <div class="weui-cell  weui-cell_example">
+                    <div class="weui-cell__bd">
+                        <p style="text-align: left">支付时间</p>
+                    </div>
+                    <div class="weui-cell__ft">2020-03-31 12:33:32</div>
+                </div>
+                <div class="weui-cell  weui-cell_example">
+                    <div class="weui-cell__bd">
+                        <p style="text-align: left">金额</p>
+                    </div>
+                    <div class="weui-cell__ft">45元</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
